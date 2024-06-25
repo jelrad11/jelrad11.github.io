@@ -1,10 +1,2 @@
-/img/OldBlowtorch_Render01.png
 
-/img/OldBlowtorch_Render02.png
-
-/img/OldBlowtorch_Render03.png
-
-/img/OldBlowtorch_Channels.png
-
-/img/OldBlowtorch_PureRef.png
 
