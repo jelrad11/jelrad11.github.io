@@ -1,10 +1,11 @@
 Blender
-3ds Max
+Unreal Engine
 Unity
 Zbrush
-Adobe Photoshop
-Topogun
-Substance 3d Painter
+Substance Painter
+Substance Designer
 Marvelous Designer
-Maya
+SpeedTree
 Marmoset Toolbag
+Photoshop
+Affinity Designer
