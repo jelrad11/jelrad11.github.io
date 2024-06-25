@@ -4,6 +4,6 @@ You play as “Grapplefoot”, an ancient strongman who was cryogenically preser
 ---
 Software Tags - separated by commas (marmoset toolbag, unity, UE5, Blender, 3ds Max)
 ---
-/img/Th_AS_Grapplefoot.png
+\Projects\Grapplefoot\img\Th_AS_Grapplefoot.png
 ---
 Grapplefoot.html

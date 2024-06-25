@@ -1,10 +1,10 @@
-Glocuester Cloister - WIP
-Cathedral under Construction - WIP
-Renault 4L - WIP
-Old Blowtorch
-Twin-Lens Camera Lubitel
-The Archipelago Promise
-Volcanoids: Heavy Machinery update
-Volcanoids: Drills and Devices
+Cloister
+Cathedral
+Renault_4L
+Old-Blowtorch
+Camera
+The-Archipelago-Promise
+Volcanoids-Heavy-Machinery
+Volcanoids-Drills-and-Devices
 Who-rigami
 Grapplefoot

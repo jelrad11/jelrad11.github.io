@@ -1,0 +1,13 @@
+Triangles: 
+
+Materials: 
+
+Texture Size: 
+
+Texel Density: 
+
+Workflow: 
+
+Target Engine: Unity
+
+Collaborators: Game Designer - Kai Jaeschke | Sound Designer - Georg Sakutinskij | Game Programmer - Patrick Kayser "Dice" | 2D Artist - Zhi Len Ng "Zeals"
