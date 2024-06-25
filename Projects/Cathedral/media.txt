@@ -1,17 +1,10 @@
-https://example1.png
-Descriptions go under each image like this! png/jpeg/jpg/gif supported.
+/img/OldBlowtorch_Render01.png
 
-https://example2.jpg
-Description for example2.jpg.
+/img/OldBlowtorch_Render02.png
 
-https://example3.gif
-These aren't real images but need replacing with your own.
+/img/OldBlowtorch_Render03.png
 
-https://examplevideo.mp4
-MP4's are also supported but like with images should be hosted somewhere like dropbox.
+/img/OldBlowtorch_Channels.png
 
-https://beforepic.png // https://afterpic.png
-You can create before and after slider by seperating two urls with ' // ' 
+/img/OldBlowtorch_PureRef.png
 
-https://sketchfabexample.com 
-you can also embed sketchfab files by pasting the url, no need for direct embedd urls. 

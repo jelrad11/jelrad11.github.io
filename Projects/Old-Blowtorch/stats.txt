@@ -1,13 +1,13 @@
 Triangles: 
 
-Materials: 
+Materials: 2
 
-Texture Size: 
+Texture Size: 2048 (MRAO)
 
 Texel Density: 
 
 Workflow: 
 
-Target Engine: 
+Target Engine: Marmoset Toolbag
 
 Collaborators:

@@ -1,17 +1,15 @@
-https://example1.png
-Descriptions go under each image like this! png/jpeg/jpg/gif supported.
+/img/Fulld01.png
 
-https://example2.jpg
-Description for example2.jpg.
+/img/tbrender_Spinny Camera_002.mp4
 
-https://example3.gif
-These aren't real images but need replacing with your own.
+/img/Fulld02.png
 
-https://examplevideo.mp4
-MP4's are also supported but like with images should be hosted somewhere like dropbox.
+/img/Assembled_01.png
 
-https://beforepic.png // https://afterpic.png
-You can create before and after slider by seperating two urls with ' // ' 
+/img/Assembled_02.png
 
-https://sketchfabexample.com 
-you can also embed sketchfab files by pasting the url, no need for direct embedd urls. 
+/img/Channels.png
+
+/img/RefBoard.png
+
+/img/ProgressGif.mp4

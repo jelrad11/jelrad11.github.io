@@ -1,9 +1,14 @@
 Old Blowtorch
 ---
-Project Description
+With this project I aimed to improve my texturing skills in Substance Painter. I had an old 3D model of this Blowtorch in my digital "drawer" and similarly to my previous post, the Old Camera, I have decided to repurpose it.
+The model has 2x 2k textures. Props around the blowtorch are from Megascans.
+Hope you like it!
+Big thanks to all the Dinusty Discord community members (most notably Sebastian Louven) and my friends who provided me with feedback throughout the process.
 ---
-Software Tags - separated by commas (marmoset toolbag, unity, UE5, Blender, 3ds Max)
+Blender, Substance Painter, Marmoset Toolbag, Megascans
 ---
 \Projects\Old-Blowtorch\img\Th_AS_Blowtorch.png
 ---
 Old-Blowtorch.html
+
+
