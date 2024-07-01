@@ -1,0 +1,20 @@
+Shields and Props: The Adventurers Museum
+---
+#DinustyMuseumChallenge #DinustyChallenge
+What a fun challenge that was. :)
+Originally, I didn't plan to participate as I had other projects in the works at the same time. But my friends at DiNusty Empire were short on props, and it sounded pretty fun to work on something together, so i joined in and made some non-hero Assets. The objective of this challenge was to create a fully realized museum with relics across eras.
+
+The most notable was probably the shield. Each shield is a Bluperint that uses 1 ARD Material for base, 1 pattern trim + Damage layer and, 1 LUT texture. The BP picks patterns and colours by randomizing UV offset.
+
+Aside from that, I also made some filler props, 3 different speaker types, and vents.
+
+It was a great pleasure to contribute to this project
+
+Big thanks go to Joel Planas, Artur Olestsik, Jeremy Estrellado, and everyone that participated in this challenge.
+
+---
+UE5, Blender, Substance Painter
+---
+Projects/The_Museum/img/Th_AS_Shield.png
+---
+the_museum.html

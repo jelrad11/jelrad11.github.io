@@ -1,6 +1,7 @@
 Cloister
 Cathedral
 Renault_4L
+The_Museum
 Old-Blowtorch
 Camera
 The-Archipelago-Promise
