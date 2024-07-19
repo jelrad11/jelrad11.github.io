@@ -1,10 +1,12 @@
-3D Modelling
+3D Modeling
 Environment Art
 Tileable Materials
-Trim sheets
 Sculpting
 Texturing
-High Poly Modelling
+Procedural workflows
+PBR
+Trim sheets
+High Poly Modeling
 UV-Unwrapping
 Retopology
 

@@ -3,25 +3,26 @@
 # Format: Title, Company, Time, Thumbnail URL, Description 
 ---
 3D Game Artist
--
+Private
 2024 (Freelance, Germany)
-https://productionimage.jpg 
-3D modular asset creation for a mobile game
+Resources/Other/THS_Blank.png
+
+As a sole artist created a stylized modular hero asset and modular environment for a mobile title demo 
 ---
 3D Game Artist
 Volcanoid s.r.o
 2019 - 2024 (Freelance, Czechia)
-https://productionimage.jpg 
-Created stylized modular props and environments and Pipeline RnD
+Resources/Other/THS_Volcanoid.png
+Produced over 50 various models, from small props to equipable items and hero models. Collaborated with other artists and designers on delivering visually coherent and interesting assets.
 ---
 3D Artist
 Skate of Mind s.r.o
 2019, 2023 (Freelance, Czechia)
-https://productionimage.jpg 
-Responsible for creation of life-like models based on existing products for AR. Creation of systems for Image processing automation for an E-shop
+Resources/Other/THS_Skate_Of_Mind.png
+Sole artist responsible for the creation of life-like 3D products for an online store and an AR app. Drafting out and development of an Automated Image Processor for an E-shop. Processed hundreds of various marketing images and animations.
 ---
 3D Artist
 Flash Mobility s.r.o
 2018 - 2019 (Freelance, Czechia)
-https://productionimage.jpg 
-Responsible for optimizing, texturing, rendering and animating 3D models for promotional product videos
+Resources/Other/THS_Flash.png
+Created a variety of offline-rendered marketing content for a new high-end product. Content ranged from still images to 3D rendered out animation that accompanied real-life footage.
