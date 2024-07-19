@@ -6,8 +6,8 @@ Texture Size:
 
 Texel Density: 
 
-Workflow: 
+Workflow: Vertex painted, with RGBA mask
 
-Target Engine: 
+Target Engine: UE5
 
-Collaborators:
+Collaborators: Dinusty Community, Sebastien Accardo

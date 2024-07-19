@@ -1,8 +1,8 @@
-Cloister
+The procession 
 ---
-Project Description
+This is a WIP scene, heavily inspired by Gloucester Cloister. Ill be updating the page as i work on it. :)
 ---
-Software Tags - separated by commas (marmoset toolbag, unity, UE5, Blender, 3ds Max)
+UE5, Blender, Substance Painter, Substance Designer, Marvelous Designer
 ---
 \Projects\Cloister\img\Th_AS_Cloister.png
 ---
