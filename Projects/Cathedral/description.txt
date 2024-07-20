@@ -1,8 +1,8 @@
-Cathedral
+Medieval Cathedral
 ---
-a
+With this environment I am planning to showcase the medieval building techniques the medieval builders employed in these mega-projects across Western Europe. :) For the time being the project is on pause, but i am very much looking forward to getting back to it. For my research on the topic i've read several books, the notable ones being: Cathedral Builders by Jean Gimpel and Sir Banister Fletcher's global history of architecture. Really recommend both. :)
 ---
-B
+Blender, UE5
 ---
 \Projects\Cathedral\img\Th_AS_Cathedral.png
 ---

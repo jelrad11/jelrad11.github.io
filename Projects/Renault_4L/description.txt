@@ -2,9 +2,9 @@ Renault 4L - WIP
 ---
 Renault 4L was a french economy-class car produced from 1961 to 1994
 
-With this project I aimed to test my SubD modeling skills. The car is also modded into Arma Reforger as a functional vehicle.
+With this project I aim to test my SubD modeling skills. The car is also modded into Arma Reforger as a functional vehicle.
 ---
-Blender
+Blender, UE5, Arma Refroger (Enfusion)
 ---
 \Projects\Renault_4L\img\Th_AS_Renault4L.png
 ---

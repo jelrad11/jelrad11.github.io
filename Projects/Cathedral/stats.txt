@@ -1,13 +1,13 @@
 Triangles: 
 
-Materials: 2
+Materials: 
 
-Texture Size: 2048
+Texture Size: 
 
 Texel Density: 
 
 Workflow: 
 
-Target Engine: Marmoset Toolbag 
+Target Engine: UE5 
 
 Collaborators: 

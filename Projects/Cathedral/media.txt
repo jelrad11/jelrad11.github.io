@@ -1,2 +1,4 @@
-
-
+/img/Cathedral_01.png // /img/Cathedral_02.png
+/img/Cathedral_05.png
+/img/Cathedral_03.png
+/img/Cathedral_04.png
