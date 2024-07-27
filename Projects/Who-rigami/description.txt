@@ -4,6 +4,6 @@ Who-rigami
 ---
 3DS Max, Unity, Substance Painter, Substance Designer
 ---
-\Projects\Who-rigami\img\Th_AS_Whorigami.png
+\Projects\Who-rigami\img\Th_AS_Whorigami.jpg
 ---
 Who-rigami.html

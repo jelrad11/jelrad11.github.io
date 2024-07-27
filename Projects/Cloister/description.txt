@@ -4,6 +4,6 @@ This is a WIP scene, heavily inspired by Gloucester Cloister. Ill be updating th
 ---
 UE5, Blender, Substance Painter, Substance Designer, Marvelous Designer
 ---
-\Projects\Cloister\img\Th_AS_Cloister.png
+\Projects\Cloister\img\Th_AS_Cloister.jpg
 ---
 Cloister.html

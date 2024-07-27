@@ -6,6 +6,6 @@ With this project I aim to test my SubD modeling skills. The car is also modded 
 ---
 Blender, UE5, Arma Refroger (Enfusion)
 ---
-\Projects\Renault_4L\img\Th_AS_Renault4L.png
+\Projects\Renault_4L\img\Th_AS_Renault4L.jpg
 ---
 Renault_4L.html

@@ -5,6 +5,6 @@ I had the pleasure of being an Art Lead for almost a year on this realistic surv
 ---
 Blender, UE5, Substance Painter, Substance Designer, Quixel Megascans
 ---
-\Projects\The-Archipelago-Promise\img\Th_AS_ArchipelagoPromise.png
+\Projects\The-Archipelago-Promise\img\Th_AS_ArchipelagoPromise.jpg
 ---
 The-Archipelago-Promise.html

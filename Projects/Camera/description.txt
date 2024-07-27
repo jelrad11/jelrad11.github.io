@@ -9,6 +9,6 @@ Big thanks to all the Dinusty Discord community members and my friends who provi
 ---
 Blender, Substance Painter, Substance Designer, Marmoset Toolbag, Quixel Megascans, Affinity Designer, PureRef
 ---
-\Projects\Camera\img\Th_AS_Camera.png
+\Projects\Camera\img\Th_AS_Camera.jpg
 ---
 Camera.html

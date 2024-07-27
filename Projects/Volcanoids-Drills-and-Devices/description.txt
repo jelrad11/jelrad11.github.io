@@ -5,6 +5,6 @@ Game Steam Page: https://store.steampowered.com/app/951440/Volcanoids/
 ---
 Blender, Substance Painter, Unity
 ---
-\Projects\Volcanoids-Drills-and-Devices\img\Th_AS_Volcanoids-Drills.png
+\Projects\Volcanoids-Drills-and-Devices\img\Th_AS_Volcanoids-Drills.jpg
 ---
 Volcanoids-Drills-and-Devices.html

@@ -5,6 +5,6 @@ Game Steam Page: https://store.steampowered.com/app/951440/Volcanoids/
 ---
 Blender, Substance Painter, Unity
 ---
-\Projects\Volcanoids-Heavy-Machinery\img\Th_AS_thumbnail03.png
+\Projects\Volcanoids-Heavy-Machinery\img\Th_AS_Heavy-Machinery.jpg
 ---
 Volcanoids-Heavy-Machinery.html

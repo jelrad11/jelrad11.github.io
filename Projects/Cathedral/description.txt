@@ -4,6 +4,6 @@ With this environment I am planning to showcase the medieval building techniques
 ---
 Blender, UE5
 ---
-\Projects\Cathedral\img\Th_AS_Cathedral.png
+\Projects\Cathedral\img\Th_AS_Cathedral.jpg
 ---
 Cathedral.html

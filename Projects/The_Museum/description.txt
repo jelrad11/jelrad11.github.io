@@ -17,6 +17,6 @@ Big thanks go to Joel Planas, Artur Olestsik, Jeremy Estrellado, and everyone th
 ---
 UE5, Blender, Substance Painter
 ---
-Projects/The_Museum/img/Th_AS_Shield.png
+Projects/The_Museum/img/Th_AS_Shield.jpg
 ---
 The_Museum.html

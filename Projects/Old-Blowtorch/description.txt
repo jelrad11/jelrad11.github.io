@@ -7,7 +7,7 @@ Big thanks to all the Dinusty Discord community members (most notably Sebastian 
 ---
 Blender, Substance Painter, Marmoset Toolbag, Megascans
 ---
-\Projects\Old-Blowtorch\img\Th_AS_Blowtorch.png
+\Projects\Old-Blowtorch\img\Th_AS_Blowtorch.jpg
 ---
 Old-Blowtorch.html
 
