@@ -1,7 +1,9 @@
-/img/Cloister_01.png
+/img/Cloister_01-previs.mp4
 
-/img/Cloister_02.png
+/img/Cloister_01.jpg
 
-/img/Cloister_03.png
+/img/Cloister_02.jpg
 
-/img/Cloister_04.png
+/img/Cloister_03.jpg
+
+/img/Cloister_04.jpg
