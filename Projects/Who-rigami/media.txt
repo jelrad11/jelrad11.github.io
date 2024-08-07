@@ -1,4 +1,4 @@
-/img/whorigami01.jpg // /img/whorigami05.png
+/img/whorigami01.jpg // /img/whorigami05.jpg
 
 /img/whorigami02.mp4
 
