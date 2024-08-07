@@ -1,8 +1,8 @@
-/img/whorigami01.png // /img/whorigami05.png
+/img/whorigami01.jpg // /img/whorigami05.png
 
 /img/whorigami02.mp4
 
 /img/whorigami04.gif
 
-/img/whorigami03.png
+/img/whorigami03.jpg
 

@@ -1,11 +1,11 @@
-/img/OldBlowtorch_Render01.png
+/img/OldBlowtorch_Render01.jpg
 
 /img/Spin_001-render.mp4
 
-/img/OldBlowtorch_Render02.png
+/img/OldBlowtorch_Render02.jpg
 
-/img/OldBlowtorch_Render03.png
+/img/OldBlowtorch_Render03.jpg
 
-/img/OldBlowtorch_Channels.png
+/img/OldBlowtorch_Channels.jpg
 
-/img/OldBlowtorch_PureRef.png
+/img/OldBlowtorch_PureRef.jpg
