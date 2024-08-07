@@ -1,4 +1,4 @@
-/img/Cathedral_01.png // /img/Cathedral_02.png
-/img/Cathedral_05.png
-/img/Cathedral_03.png
-/img/Cathedral_04.png
+/img/Cathedral_01.jpg // /img/Cathedral_02.jpg
+/img/Cathedral_05.jpg
+/img/Cathedral_03.jpg
+/img/Cathedral_04.jpg
