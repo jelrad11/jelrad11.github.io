@@ -1,15 +1,15 @@
-/img/Fulld01.png
+/img/Fulld01.jpg
 
 /img/tbrender_Spinny Camera_002.mp4
 
-/img/Fulld02.png
+/img/Fulld02.jpg
 
-/img/Assembled_01.png
+/img/Assembled_01.jpg
 
-/img/Assembled_02.png
+/img/Assembled_02.jpg
 
-/img/Channels.png
+/img/Channels.jpg
 
-/img/RefBoard.png
+/img/RefBoard.jpg
 
 /img/ProgressGif.mp4

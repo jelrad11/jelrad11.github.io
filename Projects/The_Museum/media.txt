@@ -1,22 +1,22 @@
 img/Render01-singlepass.mp4
 The shields were used as a wall piece and also as decorations on the ship
 
-img/Museum_Boat.png
+img/Museum_Boat.jpg
 The shields were made to compliment the Viking boat. Render by Joel Planas. Ship by Artur Olestsik.
 
 img/render02-Shader.mp4
 The shield blueprint uses 1 texture for 9 different patterns and 1 LUT texture for the colour schemes.
 
-img/Museum_Boat2.png
+img/Museum_Boat2.jpg
 
-img/Museum_Channels.png
+img/Museum_Channels.jpg
 The shield has 1 2k ARD material with 10.24 texel
 
-img/Museum_Wireframe.png
+img/Museum_Wireframe.jpg
 Also some filler props I made for the environment
 
 https://www.youtube.com/watch?v=LINSOgqmsl8
 Museum Walkthrough
 
-img/Museum_Credits.png
+img/Museum_Credits.jpg
 

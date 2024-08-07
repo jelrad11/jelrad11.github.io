@@ -1,16 +1,16 @@
-/img/02.png
+/img/02.jpg
 
-/img/16.png
+/img/16.jpg
 
-/img/05.png
+/img/05.jpg
 
-/img/06.png
+/img/06.jpg
 
-/img/011.png
+/img/011.jpg
 
-/img/013.png
+/img/013.jpg
 
-/img/14.png
+/img/14.jpg
 
-/img/15.png
+/img/15.jpg
 
