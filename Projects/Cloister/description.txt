@@ -1,8 +1,8 @@
-The procession 
+Gloucester Cloister 
 ---
 This is a WIP scene, heavily inspired by Gloucester Cloister. Ill be updating the page as i work on it. :)
 ---
-UE5, Blender, Substance Painter, Substance Designer, Marvelous Designer
+ Blender, Rizom, Substance Painter, Substance Designer, Marvelous Designer, UE5, Davinci Resolve, Affinity Designer
 ---
 \Projects\Cloister\img\Th_AS_Cloister.jpg
 ---
