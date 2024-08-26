@@ -1,20 +1,20 @@
+/img/Cloister_07.jpg
+
+/img/Cloister_02.jpg
+
+/img/Cloister_06.jpg
+
 /img/final_lowQ.mp4
 
 /img/Cloister_01.jpg
 
-/img/Cloister_05.jpg
-
-/img/Cloister_04.jpg
-
-/img/Cloister_07.jpg
-
-/img/Cloister_06.jpg
-
-/img/Cloister_02.jpg
-
 /img/Cloister_08.jpg
 
-/img/Cloister_07.jpg
+/img/Cloister_05.jpg
+
+/img/Cloister_03.jpg
+
+/img/Cloister_04.jpg
 
 /img/Cloister_09.jpg
 
