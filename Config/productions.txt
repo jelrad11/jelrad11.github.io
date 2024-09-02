@@ -4,22 +4,22 @@
 ---
 3D Game Artist
 Private
-2024 (Freelance, Germany)
+2024 - current (Freelance, Germany)
 Resources/Other/THS_Blank.png
 
-As a sole artist created a stylized modular hero asset and modular environment for a mobile title demo 
+Produced varying environment and asset kits for a multiple starting game projects.
 ---
 3D Game Artist
 Volcanoid s.r.o
 2019 - 2024 (Freelance, Czechia)
 Resources/Other/THS_Volcanoid.png
-Produced over 50 various models, from small props to equipable items and hero models. Collaborated with other artists and designers on delivering visually coherent and interesting assets.
+Produced over 50 various models, from small props to equipable items and hero models. Additionally prototyped environment kits and shaders. Collaborated with other artists and designers on delivering visually coherent and interesting assets. Iterated on assets throughout the stages, and requested and applied feedback. Documented progress with Jira, Clickup and Notion. Created and maintained documentation of assets I was responsible for.
 ---
 3D Artist
 Skate of Mind s.r.o
 2019, 2023 (Freelance, Czechia)
 Resources/Other/THS_Skate_Of_Mind.png
-Sole artist responsible for the creation of life-like 3D products for an online store and an AR app. Drafting out and development of an Automated Image Processor for an E-shop. Processed hundreds of various marketing images and animations.
+The sole artist responsible for the creation of life-like 3D products for an online store and an AR app. Drafted out and development of an Automated Image Processor for an E-shop. Processed hundreds of various marketing images and animations.
 ---
 3D Artist
 Flash Mobility s.r.o
