@@ -23,3 +23,5 @@
 /img/Cloister_11.jpg
 
 /img/Cloister_10.jpg
+
+/img/Cloister_12.jpg

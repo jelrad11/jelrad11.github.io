@@ -2,9 +2,17 @@
 # When you add one then productions.js will automatically add it after saving
 # Format: Title, Company, Time, Thumbnail URL, Description 
 ---
+3D Surface Artist/Shader Artist
+Asset Bomb 
+2024 - current (Full-Time, Remote)
+Resources/Other/THS_AssetBomb.png
+
+Developed high-quality surfaces and shader setups for asset packs, prioritizing end-user experience, flexibility, and visual coherence.
+
+---
 3D Game Artist
 Private
-2024 - current (Freelance, Germany)
+2024 - 2024 (Freelance, Germany)
 Resources/Other/THS_Blank.png
 
 Produced varying environment and asset kits for a multiple starting game projects.
