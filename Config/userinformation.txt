@@ -1,5 +1,5 @@
 /Resources/img/PersonalPhoto-small.jpg
-Radim Jelinek
+Radim Jelínek
 3D Environment Artist, Medieval Enthusiast, Games Maker
 Stockholm, Sweden 
 https://www.linkedin.com/in/radim-jelinek/
