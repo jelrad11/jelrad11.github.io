@@ -1,5 +1,6 @@
 3D Modeling
 Environment Art
+Modular Environments
 Tileable Materials
 Sculpting
 Texturing

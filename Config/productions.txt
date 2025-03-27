@@ -7,7 +7,7 @@ Asset Bomb
 2024 - current (Full-Time, Remote)
 Resources/Other/THS_AssetBomb.png
 
-Developed high-quality surfaces and shader setups for asset packs, prioritizing end-user experience, flexibility, and visual coherence.
+Created textures, shaders, and assets for environments. Utilized procedural workflows for asset creation. Developed a Material Layering System (MLS), allowing easy adjustments to assets by the customer. Collaborated with other artists, helped define workflows, and contributed to the Art Bible.
 
 ---
 3D Game Artist
