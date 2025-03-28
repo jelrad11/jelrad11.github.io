@@ -1,119 +1,166 @@
-// Function to create a thumbnail with overlay icons
-function createThumbnail(src, alt, galleryPageUrl, hasMultipleImages, hasVideo, hasYouTube, hasSketchfab) {
-    const thumbnailLink = document.createElement("a");
+const iconTypes = {
+    multipleImages: 'fa-solid fa-layer-group',
+    video: 'fa-solid fa-video',
+    youtube: 'fa-brands fa-youtube',
+    sketchfab: 'fa-solid fa-cube'
+};
+
+function createThumbnail(src, alt, galleryPageUrl, hasMultipleImages, hasVideo, hasYouTube, hasSketchfab, index) {
+    const thumbnailLink = document.createElement('a');
     thumbnailLink.href = galleryPageUrl;
+    thumbnailLink.role = 'link';
+    thumbnailLink.tabIndex = 0;
+    thumbnailLink.setAttribute('aria-label', `View ${alt} project`);
 
-    const thumbnailDiv = document.createElement("div");
-    thumbnailDiv.classList.add("thumbnail");
+    const thumbnailDiv = document.createElement('div');
+    thumbnailDiv.classList.add('thumbnail');
+    thumbnailDiv.style.animationDelay = `${index * 0.1}s`;
 
-    const thumbnailImg = document.createElement("img");
+    const thumbnailImg = document.createElement('img');
     thumbnailImg.src = src;
-    thumbnailImg.alt = alt;
+    thumbnailImg.alt = `${alt} thumbnail`;
+    thumbnailImg.loading = 'lazy';
 
-    const thumbnailTitle = document.createElement("div");
-    thumbnailTitle.classList.add("thumbnail-title");
-    thumbnailTitle.innerText = alt;
+    const thumbnailTitle = document.createElement('div');
+    thumbnailTitle.classList.add('thumbnail-title');
+    thumbnailTitle.textContent = alt;
 
     let iconIndex = 0;
-
-    if (hasMultipleImages) {
-        const multipleImagesIcon = document.createElement("i");
-        multipleImagesIcon.className = "fa-solid fa-layer-group overlay-icon";
-        multipleImagesIcon.style.left = `${10 + iconIndex * 30}px`;
-        thumbnailDiv.appendChild(multipleImagesIcon);
+    const addOverlayIcon = (className) => {
+        const icon = document.createElement('i');
+        icon.className = `${className} overlay-icon`;
+        const spacing = 20;
+        icon.style.left = `${10 + iconIndex * spacing}px`;
+        thumbnailDiv.appendChild(icon);
         iconIndex++;
-    }
+    };
 
-    if (hasVideo) {
-        const videoIcon = document.createElement("i");
-        videoIcon.className = "fa-solid fa-video overlay-icon";
-        videoIcon.style.left = `${10 + iconIndex * 30}px`;
-        thumbnailDiv.appendChild(videoIcon);
-        iconIndex++;
-    }
-
-    if (hasYouTube) {
-        const youtubeIcon = document.createElement("i");
-        youtubeIcon.className = "fa-brands fa-youtube overlay-icon";
-        youtubeIcon.style.left = `${10 + iconIndex * 30}px`;
-        thumbnailDiv.appendChild(youtubeIcon);
-        iconIndex++;
-    }
-
-    if (hasSketchfab) {
-        const sketchfabIcon = document.createElement("i");
-        sketchfabIcon.className = "fa-solid fa-cube overlay-icon";
-        sketchfabIcon.style.left = `${10 + iconIndex * 30}px`;
-        thumbnailDiv.appendChild(sketchfabIcon);
-        iconIndex++;
-    }
+    if (hasMultipleImages) addOverlayIcon(iconTypes.multipleImages);
+    if (hasVideo) addOverlayIcon(iconTypes.video);
+    if (hasYouTube) addOverlayIcon(iconTypes.youtube);
+    if (hasSketchfab) addOverlayIcon(iconTypes.sketchfab);
 
     thumbnailDiv.appendChild(thumbnailImg);
     thumbnailDiv.appendChild(thumbnailTitle);
     thumbnailLink.appendChild(thumbnailDiv);
 
+    thumbnailLink.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            thumbnailLink.click();
+        }
+    });
+
     return thumbnailLink;
 }
 
-// Get the thumbnail container element
-const thumbnailContainer = document.getElementById("thumbnail-container");
-
-// Function to fetch and parse the description.txt file
 function fetchProjectData(projectName) {
-    const descriptionPath = `../Projects/${projectName}/description.txt`;
-    const mediaPath = `../Projects/${projectName}/media.txt`;
+    const projectJsonPath = `../Projects/${projectName}/project.json`;
+    return fetch(projectJsonPath)
+        .then(response => {
+            if (!response.ok) throw new Error(`Failed to load project.json for ${projectName}: ${response.status}`);
+            return response.json();
+        })
+        .then(projectData => {
+            const { title, thumbnail, htmlFileName, media } = projectData;
+            const hasMultipleImages = media.filter(item => item.type === 'image').length > 1;
+            const hasVideo = media.some(item => item.type === 'video');
+            const hasYouTube = media.some(item => item.type === 'youtube');
+            const hasSketchfab = media.some(item => item.type === 'sketchfab');
 
-    return Promise.all([
-        fetch(descriptionPath).then(response => response.text()),
-        fetch(mediaPath).then(response => response.text())
-    ])
-    .then(([descriptionText, mediaText]) => {
-        const [title, description, tags, thumbnailUrl, htmlFileName] = descriptionText.split('---').map(line => line.trim());
-        const galleryPageUrl = descriptionPath.replace('description.txt', htmlFileName);
-
-        const mediaLines = mediaText.split('\n').map(line => line.trim()).filter(line => line && !line.startsWith('#'));
-        const hasMultipleImages = mediaLines.filter(line => line.match(/\.(jpeg|jpg|gif|png)$/)).length > 1;
-        const hasVideo = mediaLines.some(line => line.match(/\.(mp4)$/));
-        const hasYouTube = mediaLines.some(line => line.includes('youtube.com'));
-        const hasSketchfab = mediaLines.some(line => line.includes('sketchfab.com'));
-
-        // Find the banner image
-        const bannerImageLine = mediaLines.find(line => line.endsWith('*'));
-        const bannerImageUrl = bannerImageLine ? bannerImageLine.replace('*', '').trim() : null;
-
-        return { src: thumbnailUrl, alt: title, galleryPageUrl, hasMultipleImages, hasVideo, hasYouTube, hasSketchfab, bannerImageUrl };
-    })
-    .catch(error => console.error('Error loading project data:', error));
+            return {
+                src: thumbnail || '../default-thumbnail.jpg',
+                alt: title,
+                galleryPageUrl: `../Projects/${projectName}/${htmlFileName || 'index.html'}`,
+                hasMultipleImages,
+                hasVideo,
+                hasYouTube,
+                hasSketchfab
+            };
+        })
+        .catch(error => {
+            console.error(`Error loading project data for ${projectName}:`, error);
+            return null;
+        });
 }
 
-// Function to fetch the projects.txt file
 function fetchProjects() {
-    return fetch('../Config/projects.txt')
-        .then(response => response.text())
-        .then(text => text.split('\n').map(line => line.trim()).filter(line => line))
-        .catch(error => console.error('Error loading projects:', error));
+    const projectsJsonPath = '../Config/projects.json';
+    return fetch(projectsJsonPath)
+        .then(response => {
+            if (!response.ok) throw new Error(`Failed to load projects.json: ${response.status}`);
+            return response.json();
+        })
+        .then(data => data.projects || [])
+        .catch(error => {
+            console.error('Error loading projects:', error);
+            thumbnailContainer.innerHTML = '<p>Failed to load projects. Please try again later.</p>';
+            return [];
+        });
 }
 
-// Fetch projects and create thumbnails
-fetchProjects().then(projects => {
-    let bannerImageSet = false;
-    const fragment = document.createDocumentFragment(); // Create a document fragment
+const thumbnailContainer = document.getElementById('thumbnail-container');
+if (!thumbnailContainer) {
+    console.error('Thumbnail container not found');
+} else {
+    // Add spinner HTML instead of plain text
+    thumbnailContainer.innerHTML = `
+        <div class="spinner-container">
+            <div class="spinner"></div>
+        </div>
+    `;
 
-    const fetchProjectDataPromises = projects.map(projectName => {
-        return fetchProjectData(projectName).then(artwork => {
-            const thumbnail = createThumbnail(artwork.src, artwork.alt, artwork.galleryPageUrl, artwork.hasMultipleImages, artwork.hasVideo, artwork.hasYouTube, artwork.hasSketchfab);
-            fragment.appendChild(thumbnail); // Append each thumbnail to the fragment
+    fetchProjects().then(projects => {
+        if (!projects.length) return;
 
-            // Set the banner image if not already set
-            if (!bannerImageSet && artwork.bannerImageUrl) {
-                document.querySelector('.top-container').style.backgroundImage = `url(${artwork.bannerImageUrl})`;
-                bannerImageSet = true;
+        const fragment = document.createDocumentFragment();
+        let bannerImageSet = false;
+
+        // Create an array to store thumbnails in order
+        const thumbnails = new Array(projects.length);
+
+        const projectPromises = projects.map((projectName, index) =>
+            fetchProjectData(projectName).then(artwork => {
+                if (!artwork) {
+                    console.warn(`Skipping project ${projectName} due to fetch error`);
+                    return;
+                }
+
+                const thumbnail = createThumbnail(
+                    artwork.src,
+                    artwork.alt,
+                    artwork.galleryPageUrl,
+                    artwork.hasMultipleImages,
+                    artwork.hasVideo,
+                    artwork.hasYouTube,
+                    artwork.hasSketchfab,
+                    index
+                );
+                thumbnails[index] = thumbnail; // Store at the correct index
+
+                if (!bannerImageSet && artwork.bannerImageUrl) {
+                    document.querySelector('.top-container').style.backgroundImage = `url(${artwork.bannerImageUrl})`;
+                    bannerImageSet = true;
+                }
+            })
+        );
+
+        Promise.all(projectPromises).then(() => {
+            // Append thumbnails in the correct order
+            thumbnails.forEach((thumbnail, idx) => {
+                if (thumbnail) {
+                    fragment.appendChild(thumbnail);
+                    console.log(`Appended thumbnail ${idx}`); // Debug order
+                }
+            });
+
+            thumbnailContainer.innerHTML = '';
+            thumbnailContainer.appendChild(fragment);
+            if (!bannerImageSet) {
+                document.querySelector('.top-container').style.backgroundImage = 'url(../default-banner.jpg)';
             }
-        }).catch(error => console.error(`Error loading data for project: ${projectName}`, error));
+            const announcer = document.getElementById('thumbnail-announcer');
+            if (announcer) announcer.textContent = `Loaded ${projects.length} projects`;
+        });
     });
-
-    // Once all project data has been fetched and processed, append the fragment to the container
-    Promise.all(fetchProjectDataPromises).then(() => {
-        thumbnailContainer.appendChild(fragment);
-    });
-});
+}

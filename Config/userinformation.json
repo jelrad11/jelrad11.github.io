@@ -1,0 +1,12 @@
+{
+    "profilePicUrl": "/Resources/img/PersonalPhoto-small.jpg",
+    "profileName": "Radim Jelínek",
+    "profileRole": "3D Environment Artist, Medieval Enthusiast, Games Maker",
+    "location": "Stockholm, Sweden",
+    "socials": [
+        { "url": "https://www.linkedin.com/in/radim-jelinek/" },
+        { "url": "https://www.artstation.com/jelrad/" },
+        { "url": "https://cara.app/jelrad" },
+        { "url": "hello@jelrad.com" }
+    ]
+}
