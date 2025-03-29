@@ -1,95 +1,85 @@
 {
-    "summary": "With over a decade of experience at Facepunch Studios, I currently serve as Lead Weapon & Prop Artist, overseeing the development of various weapon and prop assets for multiple projects. My areas of expertise span a wide range of disciplines, including weapons, vehicles, environment art, and props, with a particular focus on weapons and props. Throughout my tenure at the company, I have honed my skills and contributed to the artistic excellence of our games, ensuring high-quality visuals and immersive experiences for players.",
+    "summary": "Enthusiastic and team-oriented Game Environment Artist with several years of experience and a passion for architecture in games. Specialities include modular asset creation, PBR, medieval architecture, real-time rendering, and procedural workflows. Experienced in close collaboration with small and medium-sized teams.",
     "recommendations": [
         {
-            "name": "Matt Isaac",
-            "avatar": "https://files.facepunch.com/tom/1b/nGtxmOinUw.png",
-            "position": "Lead DLC Artist @ Facepunch Studios",
-            "date": "May 21, 2024",
-            "quote": "Tom is simply one of the best in the business. Tom is an expert on a wide range of 3D, from vehicles to weapons, and all the workflows that accompany each asset. His work is instantly recognisable for it's quality and style, and has inspired many artists to learn 3D. Tom aslo creates excellent breakdowns and tutorials on all aspects of the 3D pipeline, and is especially well known for carrying the standard for Blender, which alongside Tom's easy and informative approach makes even the highest quality work accessible for an eager student. Matt Isaac, Art Manager at Facepunch"
+            "name": "Nicolai Kilstrup",
+            "avatar": "https://media.licdn.com/dms/image/C5603AQHTR34ch_Z-6Q/profile-displayphoto-shrink_200_200/0/1517529505974?e=2147483647&v=beta&t=rXxHurNcONOsFlxNnxFCeBPglEr_dTwizhzSvaLjYLI",
+            "position": "Lead 3D Artist/Asset supervisor @ Assetbomb",
+            "date": "2025",
+            "quote": "Radim is a very skilled and knowledgeable artist with solid communication and teamwork abilities. Throughout our time working together at Assetbomb, Radim has consistently shown great initiative for improving our processes and workflows to achieve the highest quality of work possible. Working mainly as texture and shader artist on the team, Radim prototyped and developed the entire material layering system for our project, as well as structuring our texturing and masking setups to allow for the best distribution of fidelity and customization within our performance budget.I am fully confident that Radim will be a great addition to any team looking for a skilled artist with generalist knowledge and experience in modeling, texturing and shader development.It has been a pleasure to supervise and collaborate with Radim. He is fun to work with, and I believe that he has a great future ahead of him in the games and/or film industry. Radim has my warmest recommendation, and I hope to be able to work with him again in the future!"
         },
         {
-            "name": "Maxime Lebled",
-            "avatar": "https://files.facepunch.com/tombutters/1b2211b1/100100SticklebackThick.png",
-            "position": "3D Animator & Artist @ Facepunch Studios",
-            "date": "March 04, 2014",
-            "quote": "Thomas was a pleasure to work with! He's a very talented artist with a broad range of skills, both creative and technical. The characters he created ranged from cartoony monsters to gritty realistic humans, and he made every single one of them interesting, appealing, and very adapted for rigging. His prop/object modeling was equally great; Rust's makeshift weapons wouldn't be the same without him. All in all he was an amazing colleague, team member, and artist."
-        },
-        {
-            "name": "Kostas Zarifis",
-            "avatar": "https://files.facepunch.com/tombutters/1b2211b1/100100BandicootPrime.png",
-            "position": "Managing Director @ Rogue Sun",
-            "date": "December 04, 2012",
-            "quote": "Tom joined the team as a Character Art ninja, near the end of the project when we badly needed extra helping hands. Originally Tom would take on some secondary character art tasks to lighten the workload of more senior artists. It quickly became obvious that Tom is one of those artists, who overly talented and skillful for their time working in the industry. As such it wasn't long before Tom was working on critical character art tasks and sharing the workload of senior artists as an equal. With Tom's inherent talent and skills, thirst for further advancing his knowledge and expertise and brilliant communication and work ethic, I have no doubt he will be climbing the industry ladder at a rapid pace. Highly recommended!"
-        },
-        {
-            "name": "Taylor Reynolds",
-            "avatar": "https://files.facepunch.com/tom/1b/zMeX7WNwhG.png",
-            "position": "Lead Character Artist @ Facepunch Studios",
-            "date": "May 22, 2024",
-            "quote": "Having worked with Tom for the better part of a decade, I'm still routinely blown away by the exceptional quality of his work and his unwavering dedication to his craft. Tom is undoubtedly one of the most talented hard surface artists in the industry, and beyond his technical prowess, Tom is also incredibly generous and passionate about sharing his wealth of knowledge with the wider community. Tom's commitment to excellence and his willingness to uplift others make him not just a phenomenal artist, but also an invaluable asset to our field."
-        },
-        {
-            "name": "Josh Powers",
-            "avatar": "https://files.facepunch.com/tom/1b/elSGwm62ZX.png",
-            "position": "Senior Environment Artist @ The Fun Pimps",
-            "date": "May 22, 2024",
-            "quote": "Never have I met a more talented and capable person to teach his craft than Thomas Butters. His attention to detail — down to the smallest of nuances — takes his art to the next level, and his slow-paced-yet concise instruction is the perfect recipe for not only seeing how something is accomplished, but also retaining that knowledge for the long term."
+            "name": "Alvian Budi Darmawan",
+            "avatar": "/Resources/img/Ref-AlvianBudiDarmawan.jpeg",
+            "position": "3D Artist @ Assetbomb",
+            "date": "2025",
+            "quote": "I had a great time working with Radim. He is one of the best texture artists I’ve ever known. His sharp eye for detail, quick thinking, and problem-solving skills never failed to impress me. I highly recommend Radim for his expertise and capabilities—I believe he would be a valuable asset to any team."
         }
     ],
     "skills": [
-        "3D Modelling",
+        "3D Modeling",
+        "Environment Art",
+        "Modular Environments",
+        "Tileable Materials",
         "Sculpting",
         "Texturing",
-        "High Poly Modelling",
+        "Procedural workflows",
+        "PBR",
+        "Trim sheets",
+        "High Poly Modeling",
         "UV-Unwrapping",
         "Retopology",
-        "Hand-painted Texturing",
-        "Weapon Modelling",
-        "Environment Art",
-        "Tileable Materials",
-        "punching faces"
+        "Research"
     ],
     "software": [
         "Blender",
-        "3ds Max",
-        "Unity",
+        "Rizom UV",
         "Zbrush",
-        "Adobe Photoshop",
-        "Topogun",
-        "Substance 3d Painter",
+        "Unreal Engine",
+        "Unity",
+        "Substance Painter",
+        "Substance Designer",
         "Marvelous Designer",
-        "Maya",
-        "Marmoset Toolbag"
+        "Marmoset Toolbag",
+        "Affinity Designer",
+        "SpeedTree",
+        "Photoshop"
     ],
     "productions": [
         {
-            "title": "Gnomon Instructor",
-            "company": "Gnomon Workshop",
-            "time": "2024 - present",
-            "thumbnail": "https://files.facepunch.com/tom/1b/gm.jpg",
-            "description": "I created an entire workshop video series for the world renowned Gnomon Workshop. The workshop focuses on creating a realistic camera pistol for FPS games, from reference gathering all the way through to presenting for portfolios and everything in between."
+            "title": "3D Surface Artist/Shader Artist",
+            "company": "Asset Bomb",
+            "time": "2024 - current (Full-Time, Remote)",
+            "thumbnail": "Resources/Other/THS_AssetBomb.png",
+            "description": "Created textures, shaders, and assets for environments. Utilized procedural workflows for asset creation. Developed a Material Layering System (MLS), allowing easy adjustments to assets by the customer. Collaborated with other artists, helped define workflows, and contributed to the Art Bible."
         },
         {
-            "title": "Lead Weapon & Prop Artist",
-            "company": "Rust - Facepunch Studios",
-            "time": "2013 - present",
-            "thumbnail": "https://preview.redd.it/2ijba81ch3s31.png?auto=webp&s=e76b0fa4ae65881e6f802ed75ed1d2b69794473a",
-            "description": "As an Lead Weapon & Prop Aritst for Rust, my role involves overseeing and coordinating the efforts of the Weapons and Props art team. I delegate tasks to artists, provide assistance and feedback on prop, weapon, and other asset artwork, and collaborate with leaders from various departments to ensure seamless coordination. Additionally, I guide junior artists in their development and maintain high-quality standards for all prop, weapon, and vehicle assets."
+            "title": "3D Game Artist",
+            "company": "Private",
+            "time": "2024 - 2024 (Freelance, Germany)",
+            "thumbnail": "Resources/Other/THS_Blank.png",
+            "description": "Produced varying environment and asset kits for a multiple starting game projects."
         },
         {
-            "title": "Lead Weapon & Prop Artist",
-            "company": "S&box - Facepunch Studios",
-            "time": "2023 - present",
-            "thumbnail": "https://files.facepunch.com/tombutters/1b2211b1/Untitled-1.png",
-            "description": "As an Lead Weapon & Prop Aritst for s&box, my role involves overseeing and coordinating the efforts of the Weapons and Props art team. I delegate tasks to artists, provide assistance and feedback on prop, weapon, and other asset artwork, and collaborate with leaders from various departments to ensure seamless coordination. Additionally, I guide junior artists in their development and maintain high-quality standards for all prop, weapon, and vehicle assets."
+            "title": "3D Game Artist",
+            "company": "Volcanoid s.r.o",
+            "time": "2019 - 2024 (Freelance, Czechia)",
+            "thumbnail": "Resources/Other/THS_Volcanoid.png",
+            "description": "Produced over 50 various models, from small props to equipable items and hero models. Additionally prototyped environment kits and shaders. Collaborated with other artists and designers on delivering visually coherent and interesting assets. Iterated on assets throughout the stages, and requested and applied feedback. Documented progress with Jira, Clickup and Notion. Created and maintained documentation of assets I was responsible for."
         },
         {
             "title": "3D Artist",
-            "company": "Garry's Mod - Facepunch Studios",
-            "time": "2014",
-            "thumbnail": "https://files.facepunch.com/tom/1b/Garry%27s_Mod_logo.svg.png",
-            "description": "As a 3D artist for Garry's Mod, I created a variety of assets, including characters, clothing and props, and optimized them for in-game use working closely with animators to achieve high quality standard."
+            "company": "Skate of Mind s.r.o",
+            "time": "2019, 2023 (Freelance, Czechia)",
+            "thumbnail": "Resources/Other/THS_Skate_Of_Mind.png",
+            "description": "The sole artist responsible for the creation of life-like 3D products for an online store and an AR app. Drafted out and development of an Automated Image Processor for an E-shop. Processed hundreds of various marketing images and animations."
+        },
+        {
+            "title": "3D Artist",
+            "company": "Flash Mobility s.r.o",
+            "time": "2018 - 2019 (Freelance, Czechia)",
+            "thumbnail": "Resources/Other/THS_Flash.png",
+            "description": "Created a variety of offline-rendered marketing content for a new high-end product. Content ranged from still images to 3D rendered out animation that accompanied real-life footage."
         }
     ]
 }
