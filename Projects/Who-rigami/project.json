@@ -1,0 +1,71 @@
+{
+  "title": "Twin-Lens Camera",
+  "description": "This Twin-Lens Camera, known as the 'Lubitel' (Amateur), was manufactured in the Soviet Union during the 1950s. It was heavily inspired by the German 'Voigtländer Brilliant', and in 1960s, a chinese variant was created titled 'Changle'.",
+  "tags": [
+    "Blender",
+    "Substance Painter",
+    "Substance Designer",
+    "Marmoset Toolbag",
+    "Quixel Megascans",
+    "Affinity Designer",
+    "PureRef"
+  ],
+  "htmlFileName": "Who-rigami.html",
+  "thumbnail": "/Projects/Who-rigami/img/Th_AS_Whorigami.jpg",
+  "media": [
+    {
+      "type": "image",
+      "url": "/Projects/Camera/img/Fulld01.jpg",
+      "description": ""
+    },
+    {
+      "type": "video",
+      "url": "/Projects/Camera/img/tbrender_Spinny Camera_002.mp4",
+      "description": ""
+    },
+    {
+      "type": "image",
+      "url": "/Projects/Camera/img/Fulld02.jpg",
+      "description": ""
+    },
+    {
+      "type": "image",
+      "url": "/Projects/Camera/img/Assembled_01.jpg",
+      "description": ""
+    },
+    {
+      "type": "image",
+      "url": "/Projects/Camera/img/Assembled_02.jpg",
+      "description": ""
+    },
+    {
+      "type": "image",
+      "url": "/Projects/Camera/img/Channels.jpg",
+      "description": ""
+    },
+    {
+      "type": "image",
+      "url": "/Projects/Camera/img/RefBoard.jpg",
+      "description": ""
+    },
+    {
+      "type": "video",
+      "url": "/Projects/Camera/img/ProgressGif.mp4",
+      "description": ""
+    }
+  ],
+  "stats": {
+    
+    "Materials": {
+      "value": "4",
+      "info": "This is including existing in-game materials in a 4-way blender shader"
+    },
+    "Texture Size": {
+      "value": "2048x2048",
+      "info": "-"
+    },
+    "Workflow": "PBR",
+    "Target Engine": "Marmoset Toolbag"
+
+  }
+}
