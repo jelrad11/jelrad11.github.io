@@ -3,6 +3,7 @@
   "description": "With this project I aimed to improve my texturing skills in Substance Painter. I had an old 3D model of this Blowtorch in my digital 'drawer' and similarly to my previous post, the Old Camera, I have decided to repurpose it. The model has 2x 2k textures. Props around the blowtorch are from Megascans. Hope you like it! Big thanks to all the Dinusty Discord community members (most notably Sebastian Louven) and my friends who provided me with feedback throughout the process.",
   "tags": [
     "Blender",
+    "Rizom",
     "Substance Painter",
     "Marmoset Toolbag",
     "Quixel Megascans",
@@ -13,54 +14,40 @@
   "media": [
     {
       "type": "image",
-      "url": "/Projects/Camera/img/Fulld01.jpg",
+      "url": "/Projects/Old_Blowtorch/img/OldBlowtorch_Render01.jpg",
       "description": ""
     },
     {
       "type": "video",
-      "url": "/Projects/Camera/img/tbrender_Spinny Camera_002.mp4",
+      "url": "/Projects/Old_Blowtorch/img/Spin_001-render.mp4",
       "description": ""
     },
     {
       "type": "image",
-      "url": "/Projects/Camera/img/Fulld02.jpg",
+      "url": "/Projects/Old_Blowtorch/img/OldBlowtorch_Render02.jpg",
       "description": ""
     },
     {
       "type": "image",
-      "url": "/Projects/Camera/img/Assembled_01.jpg",
+      "url": "/Projects/Old_Blowtorch/img/OldBlowtorch_Render03.jpg",
       "description": ""
     },
     {
       "type": "image",
-      "url": "/Projects/Camera/img/Assembled_02.jpg",
+      "url": "/Projects/Old_Blowtorch/img/OldBlowtorch_Channels.jpg",
       "description": ""
     },
     {
       "type": "image",
-      "url": "/Projects/Camera/img/Channels.jpg",
-      "description": ""
-    },
-    {
-      "type": "image",
-      "url": "/Projects/Camera/img/RefBoard.jpg",
-      "description": ""
-    },
-    {
-      "type": "video",
-      "url": "/Projects/Camera/img/ProgressGif.mp4",
+      "url": "/Projects/Old_Blowtorch/img/OldBlowtorch_PureRef.jpg",
       "description": ""
     }
   ],
   "stats": {
     
-    "Materials": {
-      "value": "4",
-      "info": "This is including existing in-game materials in a 4-way blender shader"
-    },
     "Texture Size": {
       "value": "2048x2048",
-      "info": "-"
+      "info": "MRAO"
     },
     "Workflow": "PBR",
     "Target Engine": "Marmoset Toolbag"

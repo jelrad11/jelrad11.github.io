@@ -1,71 +1,94 @@
 {
-  "title": "Twin-Lens Camera",
-  "description": "This Twin-Lens Camera, known as the 'Lubitel' (Amateur), was manufactured in the Soviet Union during the 1950s. It was heavily inspired by the German 'Voigtländer Brilliant', and in 1960s, a chinese variant was created titled 'Changle'.",
+  "title": "Gloucester Cloister ",
+  "description": "This 3D environment is based on the charming 14th-century late-gothic cloister of Gloucester Cathedral. I chose this scene because I found the intricate tracery and the fan vaults intriguing to model... If I only knew how time-consuming it would be! Everything in the scene was made by me, except for the albedos of the tapestries, some parts of the windows, leaves albedos and the benches. The stained glass is atlased into one texture, and nearly all materials are tileables, trims, or atlased textures, with the exception of the wall torch and the tapestries. I aimed to improve my material blending pipeline, using both vertex paint and RGB masks. This turned out to be a bit of an overkill, but at least now I know how to further streamline the process. Now I have only a Post-Mortem left and the project is concluded. Im really excited to dive into something new and make some more medieval environments! Big thanks to Chris Radsby, Sebastien Accardo, Jolan Huijskes, Haluk Ozkul and the Dinusty Community for their feedback and support during this project! ",
   "tags": [
     "Blender",
+    "Rizom",
     "Substance Painter",
     "Substance Designer",
-    "Marmoset Toolbag",
-    "Quixel Megascans",
+    "Marvelous Designer",
+    "Unreal Engine 5",
+    "Davinci  Resolve",
     "Affinity Designer",
     "PureRef"
   ],
-  "htmlFileName": "Camera.html",
+  "htmlFileName": "Cloister.html",
   "thumbnail": "/Projects/Cloister/img/Th_AS_Cloister.jpg",
   "media": [
     {
       "type": "image",
-      "url": "/Projects/Camera/img/Fulld01.jpg",
+      "url": "/Projects/Cloister/img/Cloister_07.jpg",
+      "description": ""
+    },
+    {
+      "type": "image",
+      "url": "/Projects/Cloister/img/Cloister_02.jpg",
+      "description": ""
+    },
+    {
+      "type": "image",
+      "url": "/Projects/Cloister/img/Cloister_06.jpg",
       "description": ""
     },
     {
       "type": "video",
-      "url": "/Projects/Camera/img/tbrender_Spinny Camera_002.mp4",
+      "url": "/Projects/Cloister/img/final_lowQ.mp4",
       "description": ""
     },
     {
       "type": "image",
-      "url": "/Projects/Camera/img/Fulld02.jpg",
+      "url": "/Projects/Cloister/img/Cloister_01.jpg",
       "description": ""
     },
     {
       "type": "image",
-      "url": "/Projects/Camera/img/Assembled_01.jpg",
+      "url": "/Projects/Cloister/img/Cloister_08.jpg",
       "description": ""
     },
     {
       "type": "image",
-      "url": "/Projects/Camera/img/Assembled_02.jpg",
+      "url": "/Projects/Cloister/img/Cloister_05.jpg",
       "description": ""
     },
     {
       "type": "image",
-      "url": "/Projects/Camera/img/Channels.jpg",
+      "url": "/Projects/Cloister/img/Cloister_03.jpg",
       "description": ""
     },
     {
       "type": "image",
-      "url": "/Projects/Camera/img/RefBoard.jpg",
+      "url": "/Projects/Cloister/img/Cloister_04.jpg",
       "description": ""
     },
     {
       "type": "video",
-      "url": "/Projects/Camera/img/ProgressGif.mp4",
+      "url": "/Projects/Cloister/img/progress.mp4",
+      "description": ""
+    },
+    {
+      "type": "image",
+      "url": "/Projects/Cloister/img/Cloister_11.jpg",
+      "description": ""
+    },
+    {
+      "type": "image",
+      "url": "/Projects/Cloister/img/Cloister_10.jpg",
+      "description": ""
+    },
+    {
+      "type": "image",
+      "url": "/Projects/Cloister/img/Cloister_12.jpg",
       "description": ""
     }
   ],
   "stats": {
     
-    "Materials": {
-      "value": "4",
-      "info": "This is including existing in-game materials in a 4-way blender shader"
-    },
     "Texture Size": {
       "value": "2048x2048",
       "info": "-"
     },
-    "Workflow": "PBR",
-    "Target Engine": "Marmoset Toolbag"
+    "Workflow": "PBR, Vertex painted, with RGBA mask",
+    "Target Engine": "Unreal Engine 5"
 
   }
 }

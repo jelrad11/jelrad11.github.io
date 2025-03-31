@@ -1,71 +1,43 @@
 {
-  "title": "Twin-Lens Camera",
-  "description": "This Twin-Lens Camera, known as the 'Lubitel' (Amateur), was manufactured in the Soviet Union during the 1950s. It was heavily inspired by the German 'Voigtländer Brilliant', and in 1960s, a chinese variant was created titled 'Changle'.",
+  "title": "Volcanoids: Heavy Machinery Update",
+  "description": "Here are some of the props I made for the Volcanoids: Drills and Devices Update. Game Steam Page: https://store.steampowered.com/app/951440/Volcanoids/",
   "tags": [
     "Blender",
     "Substance Painter",
-    "Substance Designer",
-    "Marmoset Toolbag",
-    "Quixel Megascans",
-    "Affinity Designer",
-    "PureRef"
+    "Unity"
   ],
-  "htmlFileName": "Camera.html",
+  "htmlFileName": "Volcanoids_Machinery.html",
   "thumbnail": "/Projects/Volcanoids-Heavy-Machinery/img/Th_AS_Heavy_Machinery.jpg",
   "media": [
     {
       "type": "image",
-      "url": "/Projects/Camera/img/Fulld01.jpg",
+      "url": "/Projects/Volcanoids-Heavy-Machinery/img/Drones.jpg",
       "description": ""
     },
     {
       "type": "video",
-      "url": "/Projects/Camera/img/tbrender_Spinny Camera_002.mp4",
+      "url": "/Projects/Volcanoids-Heavy-Machinery/img/MachineryUpdate.mp4",
       "description": ""
     },
     {
       "type": "image",
-      "url": "/Projects/Camera/img/Fulld02.jpg",
+      "url": "/Projects/Volcanoids-Heavy-Machinery/img/tanks.jpg",
       "description": ""
     },
     {
       "type": "image",
-      "url": "/Projects/Camera/img/Assembled_01.jpg",
-      "description": ""
-    },
-    {
-      "type": "image",
-      "url": "/Projects/Camera/img/Assembled_02.jpg",
-      "description": ""
-    },
-    {
-      "type": "image",
-      "url": "/Projects/Camera/img/Channels.jpg",
-      "description": ""
-    },
-    {
-      "type": "image",
-      "url": "/Projects/Camera/img/RefBoard.jpg",
-      "description": ""
-    },
-    {
-      "type": "video",
-      "url": "/Projects/Camera/img/ProgressGif.mp4",
+      "url": "/Projects/Volcanoids-Heavy-Machinery/img/turrets.jpg",
       "description": ""
     }
   ],
   "stats": {
-    
-    "Materials": {
-      "value": "4",
-      "info": "This is including existing in-game materials in a 4-way blender shader"
-    },
+
     "Texture Size": {
       "value": "2048x2048",
-      "info": "-"
+      "info": "Each set of devices (Drones, Tanks, Turrets) is one texture."
     },
     "Workflow": "PBR",
-    "Target Engine": "Marmoset Toolbag"
+    "Target Engine": "Unity"
 
   }
 }

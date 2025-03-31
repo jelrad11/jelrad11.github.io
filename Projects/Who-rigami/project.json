@@ -1,71 +1,44 @@
 {
-  "title": "Twin-Lens Camera",
-  "description": "This Twin-Lens Camera, known as the 'Lubitel' (Amateur), was manufactured in the Soviet Union during the 1950s. It was heavily inspired by the German 'Voigtländer Brilliant', and in 1960s, a chinese variant was created titled 'Changle'.",
+  "title": "Who-rigami",
+  "description": "Narrative game concept about a piece of paper finding its identity",
   "tags": [
-    "Blender",
+    "3DS Max",
     "Substance Painter",
     "Substance Designer",
-    "Marmoset Toolbag",
-    "Quixel Megascans",
-    "Affinity Designer",
-    "PureRef"
+    "Unity"
   ],
   "htmlFileName": "Who-rigami.html",
   "thumbnail": "/Projects/Who-rigami/img/Th_AS_Whorigami.jpg",
   "media": [
     {
-      "type": "image",
-      "url": "/Projects/Camera/img/Fulld01.jpg",
+      "type": "image-comparison",
+      "urls": [
+        "/Projects/Who-rigami/img/whorigami01.jpg",
+        "/Projects/Who-rigami/img/whorigami05.jpg"
+    ],
       "description": ""
     },
     {
       "type": "video",
-      "url": "/Projects/Camera/img/tbrender_Spinny Camera_002.mp4",
+      "url": "/Projects/Who-rigami/img/whorigami02.mp4",
       "description": ""
     },
     {
       "type": "image",
-      "url": "/Projects/Camera/img/Fulld02.jpg",
+      "url": "/Projects/Who-rigami/img/whorigami04.gif",
       "description": ""
     },
     {
       "type": "image",
-      "url": "/Projects/Camera/img/Assembled_01.jpg",
-      "description": ""
-    },
-    {
-      "type": "image",
-      "url": "/Projects/Camera/img/Assembled_02.jpg",
-      "description": ""
-    },
-    {
-      "type": "image",
-      "url": "/Projects/Camera/img/Channels.jpg",
-      "description": ""
-    },
-    {
-      "type": "image",
-      "url": "/Projects/Camera/img/RefBoard.jpg",
-      "description": ""
-    },
-    {
-      "type": "video",
-      "url": "/Projects/Camera/img/ProgressGif.mp4",
+      "url": "/Projects/Who-rigami/img/whorigami03.jpg",
       "description": ""
     }
   ],
   "stats": {
     
-    "Materials": {
-      "value": "4",
-      "info": "This is including existing in-game materials in a 4-way blender shader"
-    },
-    "Texture Size": {
-      "value": "2048x2048",
-      "info": "-"
-    },
     "Workflow": "PBR",
-    "Target Engine": "Marmoset Toolbag"
-
+    "Target Engine": "Unity",
+    
+    "Collaborators": "Game Designer - Kai Jaeschke | Sound Designer - Georg Sakutinskij | Game Programmer - Patrick Kayser 'Dice' | 2D Artist - Zhi Len Ng 'Zeals'"
   }
 }
