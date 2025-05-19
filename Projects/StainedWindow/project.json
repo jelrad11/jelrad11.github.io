@@ -1,0 +1,43 @@
+{
+  "title": " Sketch 01 - StainedWindow",
+  "description": "A quick sketch made to test out my trims pipeline. The plan was to spend 2 weeks on it, at the end it took a bit longer. Because of the short timeline I had to make some cuts. If there was more time i'd give it more geo and redo the trim, and maybe push the shape a bit more. smiley --- A big thanks to the Dinusty Discord Community for their feedback and support! :D Everything in the project was created by me --- https://www.petitpalais.paris.fr/le-petit-palais/histoire-du-b%C3%A2timent",
+  "tags": [
+    "Blender",
+    "Substance Painter",
+    "Unreal Engine 5"
+  
+  ],
+  "htmlFileName": "StainedWindow.html",
+  "thumbnail": "/Projects/StainedWindow/img/Th_AS_QP1.jpg",
+  "media": [
+    {
+      "type": "video",
+      "url": "/Projects/StainedWindow/img/QP1_Vid.mp4",
+      "description": "Beauty Video"
+    },
+    {
+      "type": "image",
+      "url": "/Projects/StainedWindow/img/QP1_1.jpg",
+      "description": "Beauty"
+    },
+    {
+      "type": "image",
+      "url": "/Projects/StainedWindow/img/QP1_3.jpg",
+      "description": "Lighting Variants"
+    },
+    {
+      "type": "image",
+      "url": "/Projects/StainedWindow/img/QP1_2.jpg",
+      "description": "Unlit | Detail Lighting"
+    },
+    {
+      "type": "image",
+      "url": "/Projects/StainedWindow/img/QP1_4.jpg",
+      "description": "Original Reference"
+    }
+  ],
+  "stats": {
+    "Workflow": "PBR",
+    "Target Engine": "Unreal Engine 5"
+  }
+}

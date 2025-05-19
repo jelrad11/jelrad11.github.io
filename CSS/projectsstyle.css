@@ -212,18 +212,22 @@ h3 {
 }
 
 #project-media img {
+  /*Commented out height modifiers, so long images are showing properly. */
+
   display: block;
   max-width: 100%;
-  max-height: 100%;
+  /*max-height: 100%;*/
   width: auto;
-  height: auto;
+  /*height: auto; */
   object-fit: contain;
   margin: auto;
+  max-height: 1080px;
 }
 
 #project-media video {
   width: 100%;
-  height: auto;
+  /*height: auto;*/
+  max-height: 1080px;
 }
 
 #toggle-description {

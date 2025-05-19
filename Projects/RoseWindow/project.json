@@ -1,0 +1,42 @@
+{
+  "title": "RoseWindow",
+  "description": "2nd 'Sketch' project made to test out my trims pipeline. The plan was to spend 2 weeks on it, it took a bit longer, but I'm happy with the result. For the next project, ill dive into Zbrush and make the architecture more organic. A big thanks to the Dinusty Discord Community for their feedback and support! smiley --- Everything in the project was created by me, with the exception of some Decals: Quixel, Trees: Quixel Norway Maple Tree, Weather Systems: Ultra Dynamic Sky/Ultra Dynamic Weather --- The render is based on Niklas Hamann's photo https://unsplash.com/photos/gray-and-black-concrete-building-close-up-photography-dqgrc3v9i68?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
+  "tags": [
+    "Blender",
+    "Substance Painter",
+    "Unreal Engine 5"
+  ],
+  "htmlFileName": "RoseWindow.html",
+  "thumbnail": "/Projects/RoseWindow/img/Th_AS_QP2.jpg",
+  "media": [
+    {
+      "type": "video",
+      "url": "/Projects/RoseWindow/img/QP2_Final01.mp4",
+      "description": "Beauty | Weather Shots"
+    },
+    {
+      "type": "image",
+      "url": "/Projects/RoseWindow/img/QP2_1.jpg",
+      "description": "Beauty"
+    },
+    {
+      "type": "image",
+      "url": "/Projects/RoseWindow/img/QP2_3.jpg",
+      "description": "Weather Shots"
+    },
+    {
+      "type": "image",
+      "url": "/Projects/RoseWindow/img/QP2_2.jpg",
+      "description": "Unlit | Detail Lighting"
+    },
+    {
+      "type": "image",
+      "url": "/Projects/RoseWindow/img/QP2_4.jpg",
+      "description": "Original Reference"
+    }
+  ],
+  "stats": {
+    "Workflow": "PBR",
+    "Target Engine": "Unreal Engine 5"
+  }
+}
