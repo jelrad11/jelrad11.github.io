@@ -1,14 +1,10 @@
 {
     "projects": [
         "Cloister",
-        "RoseWindow",
-        "StainedWindow",    
+        "RoseWindow",  
         "The_Museum",
         "Old_Blowtorch",
-        "Camera",
-        "The_Archipelago_Promise",
-        "Volcanoids-Heavy-Machinery",
-        "Volcanoids-Drills-and-Devices",
-        "Who-rigami"
+        "Camera"
     ]
 }
+
